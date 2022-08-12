@@ -1,0 +1,84 @@
+html {
+  font-family: "Courier Prime", monospace;
+  color: white;
+  /* background-color: #080808; */
+  background-image: url("../assets/wave.svg");
+  background-color: #1f1f1f;
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+}
+
+.backButton {
+  position: absolute;
+  color: white;
+  padding: 5px;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: 0.2s;
+  background-color: #333333;
+}
+.backButton:hover {
+  opacity: 0.7;
+}
+
+div.gallery {
+  display: inline-block;
+  vertical-align: top;
+  margin: 5px;
+  background-color: #333333;
+  border-radius: 16px;
+  width: 180px;
+  transition: 0.2s;
+}
+div.gallery:hover {
+  opacity: 0.7;
+}
+div.gallery img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+div.desc {
+  white-space: pre-line;
+  padding: 15px;
+  text-align: center;
+}
+
+.shadow {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1), 0 1px 8px rgba(0, 0, 0, 0.2);
+}
+
+.centre {
+  padding-bottom: 75px;
+  position: absolute;
+  text-align: center;
+  width: 99%;
+  top: 10%;
+}
+
+h1 {
+  white-space: pre-wrap;
+  font-size: 96px;
+  display: inline;
+}
+
+@-webkit-keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+.cursor {
+  display: inline;
+  -webkit-animation: blink 1s steps(1) infinite;
+          animation: blink 1s steps(1) infinite;
+}
