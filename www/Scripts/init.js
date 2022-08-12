@@ -24,9 +24,9 @@ window.onload = function() {
     var userLanguage = window.navigator.userLanguage || window.navigator.language;
     var userLang = navigator.language || navigator.userLanguage;
     
-    if (userLang == "pl") {
-        document.getElementById("title").innerHTML = " Tadeusz Dufort";
-        document.getElementById("line1").innerHTML = "Amatorski Programista, Fotograf I Artysta.";
-        document.getElementById("line2").innerHTML = "Jeżdżę Na Nartach, Gram W Gry, Robię Sztukę (Rysunek, Malowanie, 3D I Fotografia), Technika, Programowanie, Historią I nauki ścisłe"
-    }    
+    // if (userLang == "pl") {
+    //     document.getElementById("title").innerHTML = " Tadeusz Dufort";
+    //     document.getElementById("line1").innerHTML = "Amatorski Programista, Fotograf I Artysta.";
+    //     document.getElementById("line2").innerHTML = "Jeżdżę Na Nartach, Gram W Gry, Robię Sztukę (Rysunek, Malowanie, 3D I Fotografia), Technika, Programowanie, Historią I nauki ścisłe"
+    // }    
 }
