@@ -52,6 +52,22 @@ h2 {
 	align-items: center;
 }
 
+.button {
+	    position: absolute;
+    color: white;
+    padding: 5px;
+	font-size: 18px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 8px;
+	transition: 0.2s;
+    background-color: #333333;
+
+	&:hover {
+		opacity: 0.7;
+	}
+}
+
 .fa {
 	padding: 15px;
 	font-size: 35px;
@@ -90,16 +106,16 @@ h2 {
 	color: white;
 }
 
-.fa-bot {
-	white-space: pre-line;
-	background-color: #333333;
-	color: white;
-	background-image: url(../assets/icons/Bot\ Icon.png);
-	background-repeat: no-repeat;
-	background-position: 50% 50%;
-	background-size: 50%;
+// .fa-bot {
+// 	white-space: pre-line;
+// 	background-color: #333333;
+// 	color: white;
+// 	background-image: url(../assets/icons/Bot\ Icon.png);
+// 	background-repeat: no-repeat;
+// 	background-position: 50% 50%;
+// 	background-size: 50%;
 
-	position: absolute;
-	bottom: 0%;
-	left: 0%;
-}
+// 	position: absolute;
+// 	bottom: 0%;
+// 	left: 0%;
+// }
