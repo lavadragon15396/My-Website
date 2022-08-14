@@ -1,13 +1,3 @@
-html {
-  font-family: "Courier Prime", monospace;
-  color: white;
-  /* background-color: #080808; */
-  background-image: url("../assets/wave.svg");
-  background-color: #1f1f1f;
-  background-repeat: no-repeat;
-  background-size: 100%, 100%;
-}
-
 .backButton {
   position: absolute;
   color: white;
@@ -19,6 +9,7 @@ html {
   transition: 0.2s;
   background-color: #333333;
 }
+
 .backButton:hover {
   opacity: 0.7;
 }
@@ -48,37 +39,10 @@ div.desc {
   text-align: center;
 }
 
-.shadow {
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1), 0 1px 8px rgba(0, 0, 0, 0.2);
-}
-
 .centre {
   padding-bottom: 75px;
   position: absolute;
   text-align: center;
   width: 99%;
   top: 10%;
-}
-
-h1 {
-  white-space: pre-wrap;
-  font-size: 96px;
-  display: inline;
-}
-
-@-webkit-keyframes blink {
-  50% {
-    opacity: 0;
-  }
-}
-
-@keyframes blink {
-  50% {
-    opacity: 0;
-  }
-}
-.cursor {
-  display: inline;
-  -webkit-animation: blink 1s steps(1) infinite;
-          animation: blink 1s steps(1) infinite;
 }
