@@ -1,0 +1,48 @@
+.backButton {
+  position: absolute;
+  color: white;
+  padding: 5px;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: 0.2s;
+  background-color: #333333;
+}
+
+.backButton:hover {
+  opacity: 0.7;
+}
+
+div.gallery {
+  display: inline-block;
+  vertical-align: top;
+  margin: 5px;
+  background-color: #333333;
+  border-radius: 16px;
+  width: 180px;
+  transition: 0.2s;
+}
+div.gallery:hover {
+  opacity: 0.7;
+}
+div.gallery img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+div.desc {
+  white-space: pre-line;
+  padding: 15px;
+  text-align: center;
+}
+
+.centre {
+  padding-bottom: 75px;
+  position: absolute;
+  text-align: center;
+  width: 99%;
+  top: 10%;
+}

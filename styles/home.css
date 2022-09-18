@@ -1,0 +1,51 @@
+.centre {
+  position: absolute;
+  text-align: center;
+  width: 99%;
+  top: 25%;
+}
+
+.top {
+  margin-top: 1cm;
+}
+
+.links {
+  align-items: center;
+}
+
+.fa {
+  padding: 15px;
+  font-size: 35px;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 40px;
+  transition: 0.2s;
+  margin: 10px;
+  margin-top: 0.5cm;
+}
+.fa:hover {
+  opacity: 0.7;
+  border-radius: 8px;
+}
+
+.fa-instagram {
+  background: #bc2a8d;
+  color: white;
+}
+
+.fa-github {
+  background: #333;
+  color: white;
+}
+
+.fa-twitter {
+  background: #1da1f2;
+  color: white;
+}
+
+.fa-reddit {
+  background: #ff4500;
+  color: white;
+}

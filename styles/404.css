@@ -1,0 +1,12 @@
+h3 {
+	white-space: pre-wrap;
+	font-size: 384px;
+	display: inline;
+}
+
+.centre {
+    position: absolute;
+    text-align: center;
+    width: 99%;
+    top: 25%;
+}
